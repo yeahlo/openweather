@@ -2,7 +2,7 @@
 Reproduire l'application disponible sur la homepage de d'openweather
 https://openweathermap.org/city
 
-###API
+### API  
 https://openweathermap.org/current
 
 ### Consigne
