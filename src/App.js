@@ -18,7 +18,8 @@ export default props => {
     }, [])
 
     const load = () => {
-        fetch('https://api.openweathermap.org/data/2.5/weather?q=' + city + '&appid=47662866449dfa871ce12fb8f6394f78&units=metric')
+        //fetch('https://api.openweathermap.org/data/2.5/weather?q=' + city + '&appid=47662866449dfa871ce12fb8f6394f78&units=metric')
+        fetch('city.json')
             .then(raw => raw.json())
             .then(json => setData(json))
     }

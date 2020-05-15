@@ -16,6 +16,9 @@ module.exports = {
             },
         ]
     },
+    devServer: {
+        contentBase: 'public'
+    },
     plugins: [
         new HtmlWebPackPlugin({
             template: "./src/index.html",
